@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --btn-central: #f18912;
+    --text-central: #000000 ;
+    --text-sub: #1a1b06 ;
+    --btn-titulo: #e7c092;;
+}
