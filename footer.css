@@ -1,12 +1,17 @@
-.footer a  {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: var(--text-central);
-    transition: 0.3s;
+.footer a {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--text-central);
+  transition: 0.3s;
 }
 
 .footer a:hover {
-    color: var(--btn-central);
+  color: var(--btn-central);
+}
+@media (min-width: 1970px) {
+  .footer a {
+    font-size: 18px;
+  }
 }
